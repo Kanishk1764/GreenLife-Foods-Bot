@@ -7,7 +7,7 @@ GreenLife Foods provides an intuitive chatbot for distributors and retailers to 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo-url.git
+    git clone https://github.com/GreenLife-Foods-Bot.git
     ```
 
 2. Install the required dependencies:
