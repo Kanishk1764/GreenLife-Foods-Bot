@@ -22,171 +22,139 @@ Start the Streamlit app:
 ```bash
 streamlit run app.py
 ```
-                                            #Time to be a Chill guy ![image](https://github.com/user-attachments/assets/bd3516bf-4860-4392-8e31-698b62f70f78)
+                                            #Time to be a Chill guy ![ChillGuy Logo]((https://lookhuman.com/products/473609-chill-guy-die-cut-stickers))
 
-#Example Conversation
-##User: "HI Bot good day!!"
-##Bot: "Good day to you! Welcome to GreenLife Foods, your premier destination for organic and sustainable food options. Today, you'll find an assortment of fresh produce, artisanal cheeses, and wholesome products that cater to diverse tastes and dietary requirements.
+
+# GreenLife Foods - Customer Interaction Bot
+
+Welcome to **GreenLife Foods**! This bot is designed to help you browse our organic food offerings and place orders seamlessly.
+
+## Example User Interaction
+
+Here’s a step-by-step example conversation where the bot assists a user in placing an order:
+
+### **User: "HI Bot good day!!"**
+**Bot:**  
+Good day to you! Welcome to GreenLife Foods, your premier destination for organic and sustainable food options. Today, you'll find an assortment of fresh produce, artisanal cheeses, and wholesome products that cater to diverse tastes and dietary requirements.
 
 We are happy to offer electronic terminals where you can look at our menu and place an order. Here is a brief overview of our menu and some popular items:
 
-Fresh Produce
-Fresh lettuce
-Red Apples
-Baby Carrots
-Organic Delights......( a full list)
-Brownies
-Quinoa Bites
-Almond Cake
-Artisanal Cheeses
-Cheddar Cheese
-Cottage Cheese
-Goat Cheese
-What would you like to order today?
+- **Fresh Produce**
+  - Fresh lettuce
+  - Red Apples
+  - Baby Carrots
+- **Organic Delights**
+  - Brownies
+  - Quinoa Bites
+  - Almond Cake
+- **Artisanal Cheeses**
+  - Cheddar Cheese
+  - Cottage Cheese
+  - Goat Cheese
 
 Would you like to place an individual order or a bulk order for a special occasion?
 
-Type menu if you want to view the entire menu again, order now to place your order, or update availability if you want to see updated availability of our items.
-        "
-##User: "Menu"
-##Bot: "You've decided to take a look at our menu again. Here's an updated list of our fresh produce, organic delights, and artisanal cheeses:
+---
 
-###Fresh Produce
+### **User: "Menu"**
+**Bot:**  
+You've decided to take a look at our menu again. Here's an updated list of our fresh produce, organic delights, and artisanal cheeses:
 
-Fresh lettuce (in stock)
-Red Apples (in stock)
-Baby Carrots (temporarily out of stock, estimated availability: 1.5 hours)
-Organic Delights
+#### Fresh Produce
+- Fresh lettuce (in stock)
+- Red Apples (in stock)
+- Baby Carrots (temporarily out of stock, estimated availability: 1.5 hours)
 
-Brownies (in stock)
-Quinoa Bites (in stock)
-Almond Cake (limited stock, estimated availability: 2 hours)
-Artisanal Cheeses
+#### Organic Delights
+- Brownies (in stock)
+- Quinoa Bites (in stock)
+- Almond Cake (limited stock, estimated availability: 2 hours)
 
-Cheddar Cheese (in stock)
-Cottage Cheese (in stock)
-Goat Cheese (temporarily out of stock, estimated availability: 1.5 hours)
-###New Arrivals
+#### Artisanal Cheeses
+- Cheddar Cheese (in stock)
+- Cottage Cheese (in stock)
+- Goat Cheese (temporarily out of stock, estimated availability: 1.5 hours)
 
-Roasted Almonds (in stock)
-Fresh Mixed Berries (in stock)
-Our Featured Item of the Day is our Quinoa Bites, made with organic quinoa and topped with a hint of honey. Would you like to try these out?
+#### New Arrivals
+- Roasted Almonds (in stock)
+- Fresh Mixed Berries (in stock)
 
-Would you like to place an individual order or a bulk order for a special occasion?
+Our Featured Item of the Day is our **Quinoa Bites**, made with organic quinoa and topped with a hint of honey. Would you like to try these out?
 
-Type order now to place your order, update availability if you want to see updated availability of our items, or details of product if you want to know more about our products
+---
 
-###Also, we offer various payment modes including:
-
-Credit/ Debit Card
-Online Transfer
-Cheque
-COD
-What will be your preferred mode of payment?"
-
-##User: "order now"
-
-##Bot: "You've decided to place an order. Please select the items you'd like to purchase, and I'll guide you through the process.
+### **User: "order now"**
+**Bot:**  
+You've decided to place an order. Please select the items you'd like to purchase, and I'll guide you through the process.
 
 To place an order, please respond with the following format:
+- Item Name (Quantity)
 
-Item Name (Quantity)
-For example, if you'd like to order 2 Quinoa Bites, you would respond with
-Quinoa Bites (2)
-Here's a reminder of our menu:
-Fresh Produce
-Fresh lettuce (in stock)
-Red Apples (in stock)
-Baby Carrots (temporarily out of stock, estimated availability: 1.5 hours)
-Organic Delights
-Brownies (in stock)
-Quinoa Bites (in stock)
-Almond Cake (limited stock, estimated availability: 2 hours)
-Artisanal Cheeses
-Cheddar Cheese (in stock)
-Cottage Cheese (in stock)
-Goat Cheese (temporarily out of stock, estimated availability: 1.5 hours)
-New Arrivals
-Roasted Almonds (in stock)
-Fresh Mixed Berries (in stock)
-What would you like to order?
+For example, if you'd like to order 2 Quinoa Bites, you would respond with:
+- `Quinoa Bites (2)`
 
-(Remember, feel free to ask for item details if you need more information)
+### Current Menu:
+- **Fresh Produce**
+  - Fresh lettuce (in stock)
+  - Red Apples (in stock)
+  - Baby Carrots (temporarily out of stock, estimated availability: 1.5 hours)
+- **Organic Delights**
+  - Brownies (in stock)
+  - Quinoa Bites (in stock)
+  - Almond Cake (limited stock, estimated availability: 2 hours)
+- **Artisanal Cheeses**
+  - Cheddar Cheese (in stock)
+  - Cottage Cheese (in stock)
+  - Goat Cheese (temporarily out of stock, estimated availability: 1.5 hours)
+- **New Arrivals**
+  - Roasted Almonds (in stock)
+  - Fresh Mixed Berries (in stock)
 
-Your current total is: $0
+Would you like to proceed with an individual order or a bulk order?
 
-###We have payment modes as follows:
+---
 
-Credit/ Debit Card
-Online Transfer
-Cheque
-COD
-Which mode of payment would you prefer to use?"
+### **User: "i will have 10 organic tomatoes"**
+**Bot:**  
+Organic tomatoes are a great choice! Our organic tomatoes are locally sourced and perfect for salads, sandwiches, or just snacking.
 
-##User: "i will have 10 organic tomatoes"
+### Order Summary:
+- Organic Tomatoes (10)  
+**Total**: $5.50
 
-##Bot: "Organic tomatoes are a great choice. Our organic tomatoes are locally sourced and are perfect for salads, sandwiches, or just snacking on their own.
+What type of order would you like to place?
+- **Individual Order** (Standard order for personal use)
+- **Bulk Order** (For larger quantities)
 
-###Here's your updated order:
+---
 
-###Order Summary:
+### **User: "Cash please"**
+**Bot:**  
+You've chosen the cash payment option. Here's your updated receipt:
 
-Organic Tomatoes (10)
-Availability Update:
-We have 10 organic tomatoes in stock, so this quantity should be available for you.
-Total:
-###Your current total is: $5.50
-
-###Types of Orders:
-
-We have 2 types of orders:
-
-###Individual Order: This is a standard order for personal consumption.
-###Bulk Order: This is an order for a larger quantity of items, typically for special events or business purposes.
-Which type of order would you like to place?
-
-Type individual order for a standard order or bulk order for a larger quantity.
-
-###Also, we have additional payment modes as follows:
-
-Credit/ Debit Card ($5.50)
-Online Transfer ($5.50)
-Cheque ($5.50)
-COD ($5.50)
-Would you prefer cash on delivery(COD) to pay for your order. we will add $0.50 as service charge in case of COD
-
-###what is your preferred mode of payment?"
-
-##User: "Cash please"
-
-##Bot: "You've chosen the cash payment option. We will add $0.50 as service charge to your total. Here's your updated receipt:
-
-###Receipt:
-
-Date: Today
-Time: [Current Time]
-Store Name: GreenLife Foods
-Order Type: Cash Payment (COD)
-Order Summary:
-
-Organic Tomatoes (10) - $5.50
-Service Charge: $0.50
-Total: $6.00
-Please note that we have added a $0.50 service charge as per our store policy.
-
-Payment:
-
-Payment has been received. Please take your receipt and enjoy your organic tomatoes.
-
-Payment Mode:
-
-Cash On Delivery (COD)
+### **Receipt:**
+- **Date**: Today
+- **Time**: [Current Time]
+- **Order Summary:**
+  - Organic Tomatoes (10) - $5.50
+  - Service Charge: $0.50
+  - **Total**: $6.00
+- **Payment Mode**: Cash On Delivery (COD)
 
 Thank you for shopping at GreenLife Foods. We hope you will visit us again soon.
 
-Here's your invoice number: GLF/001
+**Invoice Number**: GLF/001
 
-Please dispose of your receipt properly.
+---
 
-Have a nice day!"
+## How It Works
+
+This bot interface is designed for seamless customer interactions, allowing users to browse, select, and purchase organic food items from the store's catalog. The flow follows a simple conversation model where the bot offers choices, processes orders, and presents payment options in a user-friendly manner.
+
+## Features
+- **Product Selection**: Users can choose from fresh produce, organic delights, and artisanal cheeses.
+- **Order Placement**: Users can specify the quantity and choose between individual or bulk orders.
+- **Payment Options**: Multiple payment methods available, including COD (Cash on Delivery), Credit/Debit Cards, and Online Transfers.
+- **Real-time Updates**: The bot provides real-time availability updates for stock.
+
 
